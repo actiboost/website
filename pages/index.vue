@@ -16,14 +16,14 @@
                 <img src="/img/home/seller.png" alt="Seller">
                   <h2>Seller</h2>
                   <p>Start increasing your sales in 2 minutes, Stop paying per click, pay only per extra sales</p>
-                  <nuxt-link to="/seller">I'm an Amazon seller</nuxt-link>
+                  <nuxt-link class="btn btn-primary" to="/seller">I'm an Amazon seller</nuxt-link>
               </div>
 
               <div class="col-md-6">
                 <img src="/img/home/partner.png" alt="Partner">
                 <h2>Publisher</h2>
                 <p>Start increasing you’re amazon affiliate revenue – Receive Monthly Extra Payment from Us</p>
-                <nuxt-link to="/partner">I'm an Amazon affiliate</nuxt-link>
+                <nuxt-link class="btn btn-primary" to="/partner">I'm an Amazon affiliate</nuxt-link>
               </div>
 
             </div>
