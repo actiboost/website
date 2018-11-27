@@ -16,11 +16,12 @@
               <div id="submission" class="container">
           <div class="row">
 
-              <form class="input-glass" action="" method="post" target="_blank">
+              <form class="input-glass" action="https://app.actiboost.com/sign_up" method="GET" target="_blank">
                   <div class="input-group ">
-                    <input type="text" name="EMAIL" class="form-control border border-warning" placeholder="Enter your Store URL or ASIN">
+                    <input type="hidden" name="type" value="seller">
+                    <input type="text" name="website" class="form-control border border-warning" placeholder="Enter your Store URL or ASIN">
                     <span class="input-group-append">
-                      <button class="btn btn-warning" type="button">Get Started<i class="ti-arrow-right ml-2"></i></button>
+                      <button class="btn btn-warning" type="submit">Get Started<i class="ti-arrow-right ml-2"></i></button>
                     </span>
                   </div>
                 </form>
