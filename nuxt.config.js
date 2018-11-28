@@ -38,11 +38,28 @@ module.exports = {
   /*
   ** Nuxt.js modules
   */
+
   modules: [
     // Doc: https://github.com/nuxt-community/axios-module#usage
     // '@nuxtjs/axios'
     // Doc: https://bootstrap-vue.js.org/docs/
     // 'bootstrap-vue/nuxt'
+    [
+      'nuxt-multianalytics',
+      {
+        modules: {
+          ga: {
+            appName: 'Trackzon', // Mandatory
+            appVersion: '0.1', // Mandatory
+            trackingId: 'UA-129379397-1', // Mandatory
+            debug: true // Whether or not display console logs debugs (optional)
+          },
+          facebook: {
+            token: '586232678500711'
+          }
+        }
+      }
+    ]
   ],
   /*
   ** Axios module configuration

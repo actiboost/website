@@ -6,7 +6,7 @@
         <div class="row align-items-center h-100">
 
           <div class="col-lg-12">
-            <h1 class="display-4 text-center">We Connect Amazon Sellers and Publisher</h1>
+            <h1 class="display-4 text-center">We Connect Amazon Sellers and Publishers</h1>
 
             <hr class="w-10 ml-0 my-7">
               <div id="submission" class="container">

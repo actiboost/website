@@ -5345,6 +5345,13 @@ number-is-nan@^1.0.0:
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
 
+nuxt-multianalytics@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/nuxt-multianalytics/-/nuxt-multianalytics-1.0.1.tgz#d49b34b6de84ef7daccb46908384a52fe4e601fe"
+  integrity sha512-0fvnU9aWWWSJwbYh6RLhTMHiQssNQL8QhpERwHVJmVYuBtvQpRYVQy1os/HIG7wFPmSF0C3LKlJ7JfLIhVLh5g==
+  dependencies:
+    vue-multianalytics "^1.9.7"
+
 nuxt-sass-resources-loader@^2.0.5:
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/nuxt-sass-resources-loader/-/nuxt-sass-resources-loader-2.0.5.tgz#ba88437a0abd30b718b132826e06a43b127102b5"
@@ -8095,6 +8102,11 @@ vue-meta@^1.5.5:
     deepmerge "^2.0.0"
     lodash.isplainobject "^4.0.6"
     object-assign "^4.1.1"
+
+vue-multianalytics@^1.9.7, vue-multianalytics@^1.9.9:
+  version "1.9.9"
+  resolved "https://registry.yarnpkg.com/vue-multianalytics/-/vue-multianalytics-1.9.9.tgz#657afcdd50e7f0e6e9e7467b073d60f192b53ae1"
+  integrity sha512-aOWq1R4J/XzJ8hsFaeVK+EEzs2MyIB0kLPDFBny5iFjh6rYJzv+AWGzZEMGonRCZ05EbNdxV2sILZYOBTq8PhA==
 
 vue-no-ssr@^1.1.0:
   version "1.1.0"

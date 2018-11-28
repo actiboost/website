@@ -9,7 +9,7 @@
             <h1 class="display-4"><strong>Check How Many Extra Sales/Month our Private Network of 15 millions visitors/month can Drive !
             </strong>
             </h1>
-            <p class="lead mt-5">Enter your Store URL* or ASIN to know how much extra sales/month our network can send you !</p>
+            <p class="lead mt-5">Enter your Store URL to know how much extra sales/month our network can send you !</p>
             <hr class="w-10 ml-0 my-2">
 
 
@@ -19,7 +19,7 @@
               <form class="input-glass" action="https://app.actiboost.com/sign_up" method="GET" target="_blank">
                   <div class="input-group ">
                     <input type="hidden" name="type" value="seller">
-                    <input type="text" name="website" class="form-control border border-warning" placeholder="Enter your Store URL or ASIN">
+                    <input type="text" name="website" class="form-control border border-warning" placeholder="Enter your Store URL">
                     <span class="input-group-append">
                       <button class="btn btn-warning" type="submit">Get Started<i class="ti-arrow-right ml-2"></i></button>
                     </span>
