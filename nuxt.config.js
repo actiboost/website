@@ -49,13 +49,13 @@ module.exports = {
       {
         modules: {
           ga: {
-            appName: 'Trackzon', // Mandatory
-            appVersion: '0.1', // Mandatory
-            trackingId: 'UA-129379397-1', // Mandatory
+            appName: 'Actiboost', // Mandatory
+            appVersion: '1.0', // Mandatory
+            trackingId: 'UA-125777337-1', // Mandatory
             debug: true // Whether or not display console logs debugs (optional)
           },
           facebook: {
-            token: '586232678500711'
+            token: '1895315697430865'
           }
         }
       }
