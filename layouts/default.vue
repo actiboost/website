@@ -8,7 +8,7 @@
           <button class="navbar-toggler" type="button">&#9776;</button>
           <a class="navbar-brand" href="#">
             <img class="logo-dark" src="/img/logo_actiboost.png" alt="Actiboost">
-            <img class="logo-light" src="/img/logo/slack.png" alt="logo">
+            <img class="logo-light" src="/img/logo_actiboost.png" alt="logo">
           </a>
         </div>
 
