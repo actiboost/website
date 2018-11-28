@@ -44,20 +44,20 @@ module.exports = {
     // '@nuxtjs/axios'
     // Doc: https://bootstrap-vue.js.org/docs/
     // 'bootstrap-vue/nuxt'
-    [
-      'nuxt-multianalytics',
+
+
+    // With options
+    ['nuxt-facebook-pixel-module',
       {
-        modules: {
-          ga: {
-            appName: 'Actiboost', // Mandatory
-            appVersion: '1.0', // Mandatory
-            trackingId: 'UA-125777337-1', // Mandatory
-            debug: true // Whether or not display console logs debugs (optional)
-          },
-          facebook: {
-            token: '1895315697430865'
-          }
-        }
+        /* module options */
+        track: 'PageView',
+        pixelId: '1895315697430865',
+        disabled: false
+      }
+    ],
+    ['@nuxtjs/google-analytics',
+      {
+        id: 'UA-125777337-1'
       }
     ]
   ],

@@ -965,6 +965,13 @@
   dependencies:
     consola "^2.0.7"
 
+"@nuxtjs/google-analytics@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/google-analytics/-/google-analytics-2.0.2.tgz#75353143628fd7697b41eb5aa7da38a513394eca"
+  integrity sha512-NpDQI7w4jr93Ukh98n3d0BRDHhX7cDUi3W2E0CAU6t5wmC+Q6cwQMqcEl32tGJBQlPZYWSrBKIM0A413HpL3TA==
+  dependencies:
+    vue-analytics "^5.4.0"
+
 "@nuxtjs/opencollective@^0.1.0":
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@nuxtjs/opencollective/-/opencollective-0.1.0.tgz#5dfb10b2148ce77e9590bca9b9ed6e71d2a500eb"
@@ -5345,12 +5352,10 @@ number-is-nan@^1.0.0:
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
 
-nuxt-multianalytics@^1.0.1:
+nuxt-facebook-pixel-module@^1.0.1:
   version "1.0.1"
-  resolved "https://registry.yarnpkg.com/nuxt-multianalytics/-/nuxt-multianalytics-1.0.1.tgz#d49b34b6de84ef7daccb46908384a52fe4e601fe"
-  integrity sha512-0fvnU9aWWWSJwbYh6RLhTMHiQssNQL8QhpERwHVJmVYuBtvQpRYVQy1os/HIG7wFPmSF0C3LKlJ7JfLIhVLh5g==
-  dependencies:
-    vue-multianalytics "^1.9.7"
+  resolved "https://registry.yarnpkg.com/nuxt-facebook-pixel-module/-/nuxt-facebook-pixel-module-1.0.1.tgz#bc2e52d657ecec13d9bb58369de5dc9600f217f7"
+  integrity sha512-m7jxScD4FZnSGUElNwwKBuLdlZhr0wBzL6R3zwowzHcMv9H8Ocpry9FWz0JTtTpDPFD/nm2sWBIYrBac0jCzxg==
 
 nuxt-sass-resources-loader@^2.0.5:
   version "2.0.5"
@@ -8061,6 +8066,11 @@ vm-browserify@0.0.4:
   dependencies:
     indexof "0.0.1"
 
+vue-analytics@^5.4.0:
+  version "5.16.1"
+  resolved "https://registry.yarnpkg.com/vue-analytics/-/vue-analytics-5.16.1.tgz#2fa909a245e1cee9993a69f0b72caf1dd6126c10"
+  integrity sha512-3gnS0c9lxS7+eOtzEPZKZHgWur+qSFLsM+ZIXgPOGPBLfG4mIttT18RJROEozQ+qrCRmqnSCj/dgyg6FxVMM0A==
+
 vue-eslint-parser@^2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/vue-eslint-parser/-/vue-eslint-parser-2.0.3.tgz#c268c96c6d94cfe3d938a5f7593959b0ca3360d1"
@@ -8103,7 +8113,7 @@ vue-meta@^1.5.5:
     lodash.isplainobject "^4.0.6"
     object-assign "^4.1.1"
 
-vue-multianalytics@^1.9.7, vue-multianalytics@^1.9.9:
+vue-multianalytics@^1.9.9:
   version "1.9.9"
   resolved "https://registry.yarnpkg.com/vue-multianalytics/-/vue-multianalytics-1.9.9.tgz#657afcdd50e7f0e6e9e7467b073d60f192b53ae1"
   integrity sha512-aOWq1R4J/XzJ8hsFaeVK+EEzs2MyIB0kLPDFBny5iFjh6rYJzv+AWGzZEMGonRCZ05EbNdxV2sILZYOBTq8PhA==
