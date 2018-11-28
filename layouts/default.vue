@@ -20,6 +20,7 @@
             <nuxt-link class="nav-link" to="/partner" >Partner</nuxt-link>
             <!-- <a class="nav-link" href="#section-faq">FAQ</a> -->
             <!-- <a class="nav-link" href="#footer">Contact</a> -->
+            <a href="http://help.actiboost.com/" class="nav-link">FAQ</a>
             <a href="https://app.actiboost.com/login" class="nav-link">Login</a>
           </nav>
         </section>
